@@ -68,3 +68,5 @@ do
     Console.WriteLine("Yeni bir hesaplama yapmak ister misiniz?\nLutfen evet ya da hayir yazin.");
     girdi = Console.ReadLine().ToLower();
 } while (girdi == "evet");
+if (girdi == "hayir")
+    Console.WriteLine("Gorusuruz.");
